@@ -1,0 +1,23 @@
+.callContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.callInput{
+width: 60%;
+height: 40px;
+border-radius: 8px;
+padding: 4px;
+box-sizing: border-box;
+margin-right: 10px;
+}
+.callAction{
+width: 20%;
+height: 40px;
+border-radius: 8px;
+background-color: blue;
+color: white;
+padding: 6px;
+}
