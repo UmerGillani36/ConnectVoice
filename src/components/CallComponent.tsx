@@ -14,9 +14,12 @@ const CallComponent: React.FC = () => {
   };
 
   return (
+    <div className='mainContainer'>
+      <h1 className='typeHeading'>Make a Call</h1>
     <div className='callContainer'>
       <input type="text" value={phoneNumber} onChange={handlePhoneNumberChange} placeholder="Enter phone number" className='callInput'/>
       <button onClick={initiateCall} className='callAction'>Call</button>
+    </div>
     </div>
   );
 };
